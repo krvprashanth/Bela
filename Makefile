@@ -192,7 +192,7 @@ endif
 
 RUN_IDE_COMMAND?=PATH=$$PATH:/usr/local/bin/ stdbuf -oL -eL $(RUN_COMMAND)
 BELA_AUDIO_THREAD_NAME?=bela-audio 
-XENO_CONFIG=/usr/xenomai/bin/xeno-config
+XENO_CONFIG=/usr/bin/xeno-config
 XENOMAI_SKIN=posix
 
 # Find out what system we are running on and set system-specific variables
